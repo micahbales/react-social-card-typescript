@@ -6,12 +6,12 @@ interface IProps {
 
 const Header: React.SFC<IProps> = (props: IProps) => (
     <h1>
-        Hello, {props.name}! Welcome to React and Typescript.
+        The {props.name} Project.
     </h1>
 );
 
 Header.defaultProps = {
-    name: 'world',
+    name: 'hello world',
 }
 
 export default Header;

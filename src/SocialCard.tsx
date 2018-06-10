@@ -1,10 +1,20 @@
 import * as React from 'react';
+import './SocialCard.css';
 
-class SocialCard extends React.Component {
+interface IProps {
+    username: string;
+    avatarImgUrl: string;
+}
+
+class SocialCard extends React.Component<IProps> {
     public render() {
         return (
-            <div>
-                <p>'Hello, World!'</p>
+            <div className="social-card">
+                <div className="avatar-img">
+                    <a href={`http://www.twitter.com/${this.props.username}`} className="avatar-img__link">
+                        <img src={this.props.avatarImgUrl} className="avatar-img__img" />
+                    </a>
+                </div>
             </div>
         )
     }

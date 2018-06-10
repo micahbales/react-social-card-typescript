@@ -11,9 +11,12 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Header/>
+          <Header name="SocialCard" />
         </header>
-        <SocialCard />
+        <SocialCard 
+          username="micahbales" 
+          avatarImgUrl="https://pbs.twimg.com/profile_images/523109819654230017/RlmyhCrv_400x400.png" 
+        />
       </div>
     );
   }
