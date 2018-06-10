@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
-import Description from './Description';
 import Header from './Header';
+import SocialCard from './SocialCard';
 
 import logo from './logo.svg';
 
@@ -13,7 +13,7 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <Header/>
         </header>
-        <Description countBy={3} />
+        <SocialCard />
       </div>
     );
   }
