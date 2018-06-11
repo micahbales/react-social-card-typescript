@@ -13,9 +13,12 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <Header name="SocialCard" />
         </header>
+
         <SocialCard 
-          username="micahbales" 
-          avatarImgUrl="https://pbs.twimg.com/profile_images/523109819654230017/RlmyhCrv_400x400.png" 
+          avatarImgUrl="https://pbs.twimg.com/profile_images/523109819654230017/RlmyhCrv_400x400.png"
+          name="Micah Bales"
+          timestamp="14m"
+          username="micahbales"
         />
       </div>
     );
