@@ -1,31 +1,43 @@
 .social-card {
     margin: 100px;
+    width: 550px;
     border-bottom: 1px solid #e6ecf0;
     border-top: 1px solid #e6ecf0;
     padding-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.top-row {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-row > div {
+    width: 17%;
 }
 
 .avatar-img {
     padding-left: 15px;
     padding-top: 15px;
-    height: 48px;
-    width: 48px;  
+    width: 68px!important;
 }
 
 .avatar-img__img {
-    max-width: 100%;
+    max-width: 48px;
     border-radius: 100%;
 }
 
 .name {
-    padding: 7px 0 0 7px;
+    padding-top: 7px;
     font-size: 14px;
     font-weight: bold;
 }
 
 .username, .timestamp {
-    padding: 7px 0 0 5px;
+    padding-top: 7px;
     font-size: 14px;
     color: #657786;
     font-size: 14px;
@@ -34,4 +46,11 @@
 .username a {
     text-decoration: none;
     color: #657786;
+}
+
+.text-body {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 10% 0 10%;
+    width: 80%;
 }
