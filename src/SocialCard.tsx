@@ -38,6 +38,13 @@ class SocialCard extends React.Component<IProps> {
                 <div className="text-body">
                     <p>{this.props.textBody}</p>
                 </div>
+
+                <div className="social-icons">
+                    <i className="social-icons__icon fa fa-free-code-camp" aria-hidden="true" />
+                    <i className="social-icons__icon fa fa-retweet" aria-hidden="true" />
+                    <i className="social-icons__icon fa fa-heart" aria-hidden="true" />
+                    <i className="social-icons__icon fa fa-envelope-o" aria-hidden="true" />
+                </div>
             </div>
         )
     }
