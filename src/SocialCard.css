@@ -51,6 +51,11 @@
     color: #657786;
 }
 
+.fa.fa-caret-down {
+    font-size: 18px;
+    transform: translate(150px, 17px);
+}
+
 .text-body {
     font-size: 14px;
     line-height: 20px;

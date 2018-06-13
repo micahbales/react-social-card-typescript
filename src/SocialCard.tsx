@@ -31,6 +31,8 @@ class SocialCard extends React.Component<IProps> {
                     <div className="timestamp">
                         <p>{this.props.timestamp}</p>
                     </div>
+
+                    <i className="fa fa-caret-down" aria-hidden="true" />
                 </div>
 
                 <div className="text-body">
